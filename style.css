@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.9);
+}
+:root {
+    --width: 300px;
+    --border-radius: 0%;
+    --color: #ffd166;
+}
+img {
+    width: var(--width);
+    height: auto;
+    border-radius: var(--border-radius);
+}
+h1, .control, img {
+    margin-top: 40px;
+}
+.language {
+    color: var(--color);
+}
